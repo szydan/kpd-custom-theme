@@ -1,0 +1,89 @@
+/* Sidebar */
+.global-nav {
+    background-color: #0a4681;
+}
+.global-nav-link:hover, 
+.global-nav-link.active {
+    background-color: #3470ab;
+}
+
+/* Logo Sidebar */
+.global-nav .logo-small.kibana, 
+.global-nav .logo.kibana
+{
+	background-image: url('../images/logo.png');
+	background-size: 50px 50px;
+	background-position: 0%;
+	background-color: #fff;
+}
+
+.global-nav.is-global-nav-open .logo-small.kibana, 
+.global-nav.is-global-nav-open .logo.kibana
+{
+	background-position: 50%;
+}
+
+/* Logo Loader */
+.kibanaWelcomeView .kibanaLoader
+{
+    background: #0a4681;
+}
+
+.kibanaLoader__logo
+{
+	background-color: #fff;
+}
+
+.kibanaLoader .kibanaLoader__logo {
+  background-color: #e20038 !important;
+  -webkit-animation: customColorShift 1s infinite;
+          animation: customColorShift 1s infinite;
+}
+
+@keyframes customColorShift {
+  0% {
+    background-color: #e20038;
+  }
+  25% {
+    background-color: #ff3869;
+  }
+  50% {
+    background-color: #009ed8;
+  }
+  75% {
+    background-color: #46b8e2;
+  }
+  100% {
+  	background-color: #ff1751;
+  }
+}
+
+@keyframes customColorShift {
+  0% {
+    background-color: #e20038;
+  }
+  25% {
+    background-color: #ff3869;
+  }
+  50% {
+    background-color: #009ed8;
+  }
+  75% {
+    background-color: #46b8e2;
+  }
+  100% {
+  	background-color: #ff1751;
+  }
+}
+
+.kibanaWelcomeLogo {
+	background-position: 50%;
+	background-image: url('../images/logo-white.png');
+}
+
+/* Preloader top screen */
+.loadingIndicator__bar
+{
+	background-color: #3fa0ff;
+    background-image: linear-gradient(to right, #0a4681 0%, #0a4681 50%, #3fa0ff 50%, #3fa0ff 100%);
+}
