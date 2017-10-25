@@ -1,3 +1,4 @@
+import 'plugins/kpd_custom_theme/css/style.less';
 import favicon from './images/logo.png';
 
 // Source partially from: https://stackoverflow.com/a/35960429/1843511

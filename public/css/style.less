@@ -1,32 +1,40 @@
+/* Variables */
+@darkBlue:  #0a4681;
+@lightBlue: #3470ab;
+
 /* Sidebar */
 .global-nav {
-    background-color: #0a4681;
+  background-color: @darkBlue;
 }
-.global-nav-link:hover, 
-.global-nav-link.active {
-    background-color: #3470ab;
+.global-nav-link {
+  &:hover, 
+  &.active {
+    background-color: @lightBlue;
+  }
 }
 
 /* Logo Sidebar */
-.global-nav .logo-small.kibana, 
-.global-nav .logo.kibana
-{
-	background-image: url('../images/logo.png');
-	background-size: 50px 50px;
-	background-position: 0%;
-	background-color: #fff;
+.global-nav {
+  .logo-small.kibana, 
+  .logo.kibana
+  {
+	  background-image: url('../images/logo.png');
+	  background-size: 50px 50px;
+	  background-position: 0%;
+	  background-color: #fff;
+  }
 }
-
-.global-nav.is-global-nav-open .logo-small.kibana, 
-.global-nav.is-global-nav-open .logo.kibana
-{
-	background-position: 50%;
+.global-nav.is-global-nav-open {
+  .logo-small.kibana, 
+  .logo.kibana
+  {
+    background-position: 50%;
+  }
 }
-
 /* Logo Loader */
 .kibanaWelcomeView .kibanaLoader
 {
-    background: #0a4681;
+  background: @darkBlue;
 }
 
 .kibanaLoader__logo
@@ -85,5 +93,5 @@
 .loadingIndicator__bar
 {
 	background-color: #3fa0ff;
-    background-image: linear-gradient(to right, #0a4681 0%, #0a4681 50%, #3fa0ff 50%, #3fa0ff 100%);
+  background-image: linear-gradient(to right, @darkBlue 0%, @darkBlue 50%, #3fa0ff 50%, #3fa0ff 100%);
 }
