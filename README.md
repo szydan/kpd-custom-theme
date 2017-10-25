@@ -26,7 +26,7 @@ cd kpd_custom_theme
 ```
 > **Important**: If you have any problem with the plugin version (like a warning message "**it expected Kibana version "x.x.x", and found "x.x.x"**") only change the value of the "version" tag on the package.json to your Kibana version
 
-####Uninstall:
+### Uninstall:
 ```
 cd KIBANA_HOME
 rm -rf plugins/kpd_custom_theme/
