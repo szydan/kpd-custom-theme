@@ -37,3 +37,4 @@ rm -rf plugins/kpd_custom_theme/
 
 - If you've found a bug or want to request a feature, please create a [GitHub Issue](https://github.com/ErikvdVen/kpd-custom-theme/issues/new). Please check to make sure someone else hasn't already created an issue for the same topic.
 - Your are also free to join our [Gitter channel](https://gitter.im/kibanaplugindevelopment/Lobby), we are glad to help you out!
+- Pull requests will be greatly appreciated as well :)
