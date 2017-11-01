@@ -18,7 +18,7 @@ There are a couple of reasons for writing a plugin instead of customizing the co
 A short demo:
 ![Demo custom theme inclusive preloader](img/demo.gif?raw=true "Demo custom theme inclusive preloader")
 
-As you might notice from the GIF image, I've replaced the Kibana logo's (left top of the screen and the preloader) and some of the colours (left sidebar and the flashing preloader).
+As you might notice from the GIF image, I've replaced the Kibana logo's (left top of the screen and the preloader) and some of the colours (left sidebar and the flashing preloader). The JavaScript will also replace the favicon, which isn't noticeable from the GIF image, but the code is included in this repo.
 
 ## Installation
 ```
